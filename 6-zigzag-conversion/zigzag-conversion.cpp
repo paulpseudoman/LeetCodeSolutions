@@ -1,11 +1,6 @@
 #pragma GCC optimize("O3,unroll-loops")
 class Solution {
 public:
-    static inline const auto init = [](){
-        std::ios_base::sync_with_stdio(false);
-        std::cin.tie(NULL);
-        return 0;
-    }();
     string convert(string s, int numRows) {
         if(numRows > 1){
             string zigzag; 
